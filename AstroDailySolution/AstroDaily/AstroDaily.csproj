@@ -9,13 +9,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <Compile Remove="FE\**" />
+    <Compile Remove="Mobile\**" />
+    <Content Remove="FE\**" />
+    <Content Remove="Mobile\**" />
+    <EmbeddedResource Remove="FE\**" />
+    <EmbeddedResource Remove="Mobile\**" />
+    <None Remove="FE\**" />
+    <None Remove="Mobile\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="FE\" />
-    <Folder Include="Mobile\" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
 </Project>
