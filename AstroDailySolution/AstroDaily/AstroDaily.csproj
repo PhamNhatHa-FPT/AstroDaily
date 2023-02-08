@@ -20,8 +20,24 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="FE-Ket\demo-react-main\.vs\ProjectSettings.json" />
+    <Content Include="FE-Ket\demo-react-main\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="FE-Ket\demo-react-main\.vs\demo-react-main\FileContentIndex\566bf743-aefd-4527-ac1c-bad89d61ce9e.vsidx" />
+    <None Include="FE-Ket\demo-react-main\.vs\demo-react-main\FileContentIndex\read.lock" />
+    <None Include="FE-Ket\demo-react-main\.vs\slnx.sqlite" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="FE-Ket\demo-react-main\.vs\demo-react-main\FileContentIndex\merges\" />
+    <Folder Include="FE-Ket\demo-react-main\.vs\demo-react-main\v17\" />
   </ItemGroup>
 
 </Project>
