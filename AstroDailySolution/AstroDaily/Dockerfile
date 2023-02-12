@@ -23,3 +23,7 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "AstroDaily.dll"]
+
+FROM ubuntu:latest
+RUN apt-get -y update
+RUN apt-get -y install git
